@@ -1,0 +1,45 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+
+  h1 {
+    font-family: 'Red Hat Text';
+    font-size: 20vh;
+    margin: 0;
+    padding: 0;
+    height: 16vh;
+    letter-spacing: -1.2vh;
+  }
+
+  h2 {
+    font-family: 'Open Sans';
+    font-size: 5vh;
+  }
+
+  h1,
+  h2 {
+    color: white;
+  }
+
+  .letterRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 20vw;
+      height: 16vw;
+      letter-spacing: -1.2vw;
+    }
+
+    h2 {
+      font-family: 'Open Sans';
+      font-size: 5vw;
+    }
+  }
+}

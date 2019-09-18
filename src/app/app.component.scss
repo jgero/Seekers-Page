@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url('../assets/startpage-background.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #3f3f3f;
+  width: 100%;
+  padding-bottom: 15vh;
+}
