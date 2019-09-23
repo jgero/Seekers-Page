@@ -9,6 +9,8 @@ import { LogoComponent } from './logo/logo.component';
 import { MoreComponent } from './more/more.component';
 import { ShowsComponent } from './shows/shows.component';
 import { WikingerComponent } from './shows/wikinger/wikinger.component';
+import { FortunaComponent } from './shows/fortuna/fortuna.component';
+import { InvisaComponent } from './shows/invisa/invisa.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { WikingerComponent } from './shows/wikinger/wikinger.component';
     LogoComponent,
     MoreComponent,
     ShowsComponent,
-    WikingerComponent
+    WikingerComponent,
+    FortunaComponent,
+    InvisaComponent
   ],
   imports: [
     BrowserModule,

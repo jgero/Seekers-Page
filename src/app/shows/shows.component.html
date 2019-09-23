@@ -1,17 +1,21 @@
 <span class="separator"></span>
 
-<h1>SHOWS</h1>
+<h1 id="shows">SHOWS</h1>
 
 <div>
-  <svg>
+  <svg [routerLink]="['/']" fragment="wikinger">
     <use href="assets/svg/wikinger.svg#svg1035" />
   </svg>
-  <svg>
+  <svg [routerLink]="['/']" fragment="fortuna">
     <use href="assets/svg/fortuna.svg#svg2405" />
   </svg>
-  <svg>
+  <svg [routerLink]="['/']" fragment="invisa">
     <use href="assets/svg/invisa.svg#svg3019" />
   </svg>
 </div>
 
 <app-wikinger></app-wikinger>
+
+<app-fortuna></app-fortuna>
+
+<app-invisa></app-invisa>
