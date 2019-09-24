@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, ExtraOptions } from '@angular/router';
-import { AppComponent } from './app.component';
+import { MoreComponent } from './more/more.component';
+import { ShowsComponent } from './shows/shows.component';
 
 
 const routes: Routes = [
-  { path: '**', component: AppComponent }
+  { path: '', component: MoreComponent },
+  { path: 'shows', component: ShowsComponent }
 ];
 
 const routerOptions: ExtraOptions = {
