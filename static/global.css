@@ -1,0 +1,7 @@
+body {
+  --primary: #1b1b1b;
+  --on-primary: #998003;
+  background-color: var(--primary);
+  margin: 0;
+  font-family: "Open Sans";
+}
