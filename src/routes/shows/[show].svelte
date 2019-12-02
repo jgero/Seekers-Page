@@ -1,4 +1,9 @@
 <script>
+  import InvisaContent from "../../components/InvisaContent.svelte";
+  import FortunaContent from "../../components/FortunaContent.svelte";
+  import WikingerContent from "../../components/WikingerContent.svelte";
+  import StageContent from "../../components/StageContent.svelte";
+
   import { stores } from '@sapper/app';
   const { page } = stores();
 
@@ -9,11 +14,20 @@
 </script>
 
 <style>
-  div {
-    color: var(--on-primary);
-  }
 </style>
 
-<div>
-  <span>{show}</span>
-</div>
+{#if show === "invisa"}
+  <InvisaContent />
+{/if}
+
+{#if show === "fortuna"}
+  <FortunaContent />
+{/if}
+
+{#if show === "wikinger"}
+  <WikingerContent />
+{/if}
+
+{#if show === "stage"}
+  <StageContent />
+{/if}

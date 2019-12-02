@@ -7,6 +7,7 @@
     width: 100%;
     margin-block-end: 2rem;
   }
+
   ul {
     color: var(--on-primary);
     list-style-type: none;

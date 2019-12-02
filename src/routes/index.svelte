@@ -1,3 +1,7 @@
+<script>
+	import LandingPageContent from "../components/LandingPageContent.svelte";
+</script>
+
 <style>
 	header {
 		text-align: center;
@@ -38,3 +42,5 @@
 	<h1 class="bottom">SEEKERS</h1>
 	<h2>SHWOAKROBATIK</h2>
 </header>
+
+<LandingPageContent />
