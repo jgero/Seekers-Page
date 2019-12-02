@@ -3,14 +3,17 @@
 </script>
 
 <style>
+  nav {
+    border-block-end: 2px solid var(--on-primary);
+    margin-block-end: 2rem;
+  }
   ul {
     list-style-type: none;
     display: flex;
     margin: 0;
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
     padding: 0;
-    height: 4rem;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
     font-size: 2rem;
   }
   li {
@@ -23,13 +26,15 @@
   a {
     text-decoration: none;
     color: var(--on-primary);
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .2s ease-out;
   }
   a.svgContainer, svg {
     height: 100%;
     width: 100%;
   }
   a.selected {
-    color: red;
+    border-bottom: 1px solid var(--on-primary);
   }
 </style>
 

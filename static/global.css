@@ -4,4 +4,9 @@ body {
   background-color: var(--primary);
   margin: 0;
   font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
 }

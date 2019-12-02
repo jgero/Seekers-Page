@@ -1,46 +1,41 @@
 <style>
-	h1, figure, p {
+	header {
 		text-align: center;
-		margin: 0 auto;
+		color: var(--on-primary);
 	}
-
+	h1, h2 {
+		margin: 0;
+	}
 	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
+		font-family: 'Red Hat Text';
+		font-size: 15rem;
 	}
-
-	figure {
-		margin: 0 0 1em 0;
+	h1.bottom {
+		transform: translateY(-8.5rem);
 	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
+	h2 {
+		font-size: 2.5rem;
+    transform: translateY(-12.5rem);
+    letter-spacing: 3.5rem;
 	}
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Gold Seekers</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<header>
+	<h1>GOLD</h1>
+	<h1 class="bottom">SEEKERS</h1>
+	<h2>SHWOAKROBATIK</h2>
+</header>
+
+
+<!-- <h1>Great success!</h1>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p> -->
