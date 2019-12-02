@@ -1,10 +1,19 @@
 <style>
 	header {
 		text-align: center;
-		color: var(--on-primary);
+    color: var(--on-primary);
+    background-image: url(../images/gs-background.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 6rem;
+    border-radius: 1rem;
 	}
 	h1, h2 {
 		margin: 0;
+		width: fit-content;
 	}
 	h1 {
 		font-family: 'Red Hat Text';
@@ -29,13 +38,3 @@
 	<h1 class="bottom">SEEKERS</h1>
 	<h2>SHWOAKROBATIK</h2>
 </header>
-
-
-<!-- <h1>Great success!</h1>
-
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p> -->

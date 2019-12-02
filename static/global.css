@@ -1,5 +1,5 @@
 body {
-  --primary: #1b1b1b;
+  --primary: black;
   --on-primary: #998003;
   background-color: var(--primary);
   margin: 0;
