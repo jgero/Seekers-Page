@@ -1,3 +1,5 @@
 node_modules
+/cypress/screenshots/
+__sapper__
+firebase-debug.log
 .firebase
-dist

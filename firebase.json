@@ -1,14 +1,12 @@
 {
   "hosting": {
-    "public": "dist/seekers/",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [{
-      "source": "**",
-      "destination": "/index.html"
-    }]
+    "public": "./static",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "ssr"
+      }
+    ]
   }
 }

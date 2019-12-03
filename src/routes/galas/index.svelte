@@ -1,0 +1,44 @@
+<script>
+
+</script>
+
+<style>
+  * {
+    width: 70%;
+  }
+
+  h1 {
+    color: var(--on-primary);
+  }
+
+  p {
+    color: var(--on-primary-contrast);
+  }
+</style>
+
+<h1>Galas</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus pharetra nibh, id fringilla lacus
+  viverra eget. Nunc vel ex molestie diam pharetra lobortis. Integer vitae quam dignissim nulla tincidunt pharetra.
+  Aenean leo neque, facilisis vitae dui quis, hendrerit ullamcorper ligula. Curabitur id risus et metus dapibus aliquam.
+  Suspendisse mi risus, tristique nec elementum id, gravida id ligula. Duis rutrum, quam non maximus tempus, turpis
+  ligula auctor dolor, ut condimentum tellus risus vel diam. Nulla facilisi. Quisque mattis iaculis purus, sit amet
+  sodales sem pretium ut. In nec commodo lectus, ac feugiat ipsum. Proin id scelerisque justo. Integer ac efficitur
+  diam. Fusce eget fermentum metus. Pellentesque hendrerit dolor non dui congue consectetur. Aliquam vehicula, justo
+  vitae tempor laoreet, ipsum nibh efficitur sapien, a scelerisque nunc lectus vel mi.</p>
+
+<p>Integer sed condimentum lectus, id molestie augue. Quisque arcu lacus, vulputate sit amet magna nec, lacinia mollis
+  nibh. Suspendisse accumsan quam nec mi rutrum, vitae lobortis elit pulvinar. Vestibulum vel eros diam. Fusce
+  pellentesque id ante in semper. Nunc eu diam eleifend, finibus quam non, bibendum justo. Sed eget bibendum lacus.</p>
+
+<p>Sed eu fermentum lorem. Nunc tellus ligula, lobortis sit amet ullamcorper ut, eleifend dictum dolor. Integer eu metus
+  iaculis, commodo odio non, porta velit. Aenean et odio metus. Proin viverra, nunc eget aliquet elementum, nisl ligula
+  hendrerit nulla, eu dapibus justo lacus eget diam. Duis pretium erat quis sollicitudin fermentum. Quisque eget
+  pharetra est. Morbi accumsan ex sit amet lacus semper posuere. Etiam sodales scelerisque orci, ac tempus nulla dictum
+  non. Donec in sapien finibus, faucibus est eu, consequat arcu. Aliquam ac condimentum libero. Duis euismod finibus
+  pretium.</p>
+
+<p>Nam sit amet consequat urna. Sed venenatis erat nec maximus placerat. Sed mi felis, vehicula vitae nisl ut, semper
+  maximus ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur lobortis ante volutpat, sodales
+  nisi ac, consectetur ex. Maecenas in porttitor lectus, in ornare augue. Nam porttitor auctor leo, quis lacinia ante
+  ultrices vitae. Suspendisse potenti.</p>
