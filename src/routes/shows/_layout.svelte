@@ -35,6 +35,10 @@
   }
 </style>
 
+<svelte:head>
+	<title>Shows</title>
+</svelte:head>
+
 <nav>
   <ul>
     <li><a href="shows/invisa" class:selected={segment === 'invisa'} id="invisa">

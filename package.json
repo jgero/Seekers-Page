@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "seekers_page",
+  "description": "A Web-App powered by Svelte-Sapper and Firebase",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
