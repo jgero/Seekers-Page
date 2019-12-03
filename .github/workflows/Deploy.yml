@@ -16,7 +16,11 @@ jobs:
       - name: Use Node.js 12
         uses: actions/setup-node@v1
 
-      - name: Install packages
+      - name: Install packages for app
+        run: npm install
+
+      - name: Install packages for functions
+        working-directory: ./functions
         run: npm install
 
       - name: Run tests
