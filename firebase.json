@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "predeploy": ["npm --prefix hosting run build:prod"],
+      "predeploy": ["npm --prefix hosting run build"],
       "target": "seekers-app",
       "public": "hosting/dist/seekers-app",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
