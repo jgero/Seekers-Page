@@ -1,5 +1,22 @@
+# compiled output
+hosting/dist
+functions/lib
+
+# dependencies
 node_modules
-/cypress/screenshots/
-__sapper__
-firebase-debug.log
+
+# IDE - VSCode
+.vscode
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# firebase stuff
 .firebase

@@ -1,0 +1,25 @@
+:root {
+  font-family: "Open Sans";
+  --background: black;
+  --primary: #998003;
+  --on-primary: black;
+  --on-background: white;
+
+  --spacing: 5vw;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--primary);
+}

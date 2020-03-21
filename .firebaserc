@@ -1,4 +1,13 @@
 {
+  "targets": {
+    "seekers-page-18e39": {
+      "hosting": {
+        "seekers-app": [
+          "seekers-page-18e39"
+        ]
+      }
+    }
+  },
   "projects": {
     "default": "seekers-page-18e39"
   }

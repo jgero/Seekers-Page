@@ -1,0 +1,25 @@
+:host {
+  .peak {
+    background-color: var(--primary);
+    width: 100%;
+    height: var(--spacing);
+    clip-path: polygon(100% 100%, 0 100%, 50% 0);
+  }
+
+  footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: var(--primary);
+    color: var(--on-primary);
+
+    a {
+      color: var(--on-primary);
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
