@@ -1,0 +1,51 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--spacing);
+
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15vw 0;
+    width: 100%;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+      border-top-left-radius: calc(var(--spacing) / 4);
+      border-top-right-radius: calc(var(--spacing) / 4);
+    }
+
+    h1 {
+      font-family: "Red Hat Text";
+      margin: 0;
+      font-size: 15vw;
+      line-height: 11vw;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 3vw;
+      letter-spacing: 3.7vw;
+    }
+  }
+
+  main {
+    padding: 0 var(--spacing);
+
+    h3 {
+      width: 100%;
+    }
+
+    p {
+      font-size: 1rem;
+      color: var(--on-background);
+    }
+  }
+}

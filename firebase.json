@@ -1,12 +1,16 @@
 {
-  "hosting": {
-    "public": "./static",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "function": "ssr"
-      }
-    ]
-  }
+  "hosting": [
+    {
+      "predeploy": ["npm --prefix hosting run build:prod"],
+      "target": "seekers-app",
+      "public": "hosting/dist/seekers-app",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
 }
